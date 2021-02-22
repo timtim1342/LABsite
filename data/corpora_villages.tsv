@@ -1,0 +1,43 @@
+name	link	type	subtype	place	lat	lon	lang
+Corpus of the Russian dialect spoken in the village Malinino	http://lingconlab.ru/malinino/	corpus	dialectal	Malinino	52.29714519222322	39.34909665122833	Russian
+Corpus of Opochetsky dialects	http://lingconlab.ru/luzhnikovo/	corpus	dialectal	Kadnikovo	56.81217882581824	28.697323495689513	Russian
+Corpus of Opochetsky dialects	http://lingconlab.ru/luzhnikovo/	corpus	dialectal	Barabany	56.794103749023805	28.684124062817638	Russian
+Corpus of Opochetsky dialects	http://lingconlab.ru/luzhnikovo/	corpus	dialectal	Balashi	56.817530393633696	28.68758590886312	Russian
+Corpus of Opochetsky dialects	http://lingconlab.ru/luzhnikovo/	corpus	dialectal	Glazanovo	56.813200025131074	28.682393639550646	Russian
+Corpus of Opochetsky dialects	http://lingconlab.ru/luzhnikovo/	corpus	dialectal	Purshevo	56.77160878586318	28.670693431337515	Russian
+Corpus of Rogovatka dialect	http://www.parasolcorpus.org/Rogovatka/	corpus	dialectal	Rogovatoye	51.25013418106378	38.3774542925194	Russian
+Corpus of Spiridonova Buda dialect	http://lingconlab.ru/SpiridonovaBuda/	corpus	dialectal	Spiridonova Buda	52.2960319548886	31.78794776299452	Russian
+Ustja River Basin Corpus	http://www.parasolcorpus.org/Pushkino/login.php	corpus	dialectal	Mikhalevskaya	61.50111115516853	42.65695604008497	Russian
+Corpus of the Russian dialect spoken in Khislavichi district	http://lingconlab.ru/khislavichi/	corpus	dialectal	Stajki	54.13313367449966	32.01403530693449	Russian
+Corpus of the Russian dialect spoken in Khislavichi district	http://lingconlab.ru/khislavichi/	corpus	dialectal	Zhanvil	54.0310020318232	31.89814766822099	Russian
+Corpus of the Russian dialect spoken in Khislavichi district	http://lingconlab.ru/khislavichi/	corpus	dialectal	Soino	53.97977413895118	31.9937206687928	Russian
+Corpus of the Russian dialect spoken in Khislavichi district	http://lingconlab.ru/khislavichi/	corpus	dialectal	Malye Khutora	54.12557364704443	32.00218658454533	Russian
+Corpus of the Russian dialect spoken in Khislavichi district	http://lingconlab.ru/khislavichi/	corpus	dialectal	Zhygalki	53.99736517924857	32.00736633639464	Russian
+Corpus of the Russian dialect spoken in Nekhochi	http://lingconlab.ru/nekhochi/	corpus	dialectal	Nekhochi	53.439272724060935	34.926708849641805	Russian
+Corpus of Russian spoken in Zvenigorod	http://lingconlab.ru/zvenigorod/	corpus	dialectal	ND			Russian
+Corpus of Russian spoken by the Besermans	http://lingconlab.ru/BesermanRus/	corpus	bilingual	Shamardan	58.0176303487814	52.15042723510553	Russian
+Corpus of Russian spoken in Bashkortostan	http://lingconlab.ru/BashkirRus/	corpus	bilingual	Baimovo	53.737743942789606	58.841752139886296	Russian
+Corpus of Russian spoken in Chuvashia	http://lingconlab.ru/ChuvashRus/	corpus	bilingual	Maloye Karachkino	56.15800108716516	46.76070423415941	Russian
+Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Daghestan	44.04587875385596	47.09837971377551	Russian
+Corpus of Karelian Russian	http://lingconlab.ru/karelrus/ 	corpus	bilingual	Petrozavodsk	61.88543861887711	34.35907973607885	Russian
+Corpus of Karelian Russian	http://lingconlab.ru/karelrus/ 	corpus	bilingual	Kostomuksha	64.62560509504215	30.599377753857	Russian
+Corpus of Karelian Russian	http://lingconlab.ru/karelrus/ 	corpus	bilingual	Voknavolok	64.9636709620851	30.559726789431615	Russian
+Corpus of Karelian Russian	http://lingconlab.ru/karelrus/ 	corpus	bilingual	Pryazha	61.69981974626655	33.621921920011644	Russian
+Corpus of Karelian Russian	http://lingconlab.ru/karelrus/ 	corpus	bilingual	Vedlozero	61.5840497029774	32.84259866170329	Russian
+Corpus of Karelian Russian	http://lingconlab.ru/karelrus/ 	corpus	bilingual	Kinerma	61.52887060798247	32.82902349213565	Russian
+Yakut-Russian Code-Switching Corpus	http://lingconlab.ru/cs_yakut/	corpus	bilingual	Yakutsk	62.09977726736894	129.72847942513334	Russian
+Spoken corpus of Abaza	http://lingconlab.ru/spoken_abaza/	corpus	minority	Inzhich-Chukun	44.04614598178472	41.781262901713475	Abaza
+Spoken corpus of Adyghe	http://lingconlab.ru/spoken_adyghe/	corpus	minority	Kabekhabl	45.047325634291006	40.18040899953169	Adyghe
+Spoken corpus of Adyghe	http://lingconlab.ru/spoken_adyghe/	corpus	minority	Pshicho	45.06402029925006	40.17600355381339	Adyghe
+Spoken corpus of Adyghe	http://lingconlab.ru/spoken_adyghe/	corpus	minority	Khatazhukay	45.07688950523018	40.18626859273333	Adyghe
+Spoken corpus of Bashkir	http://lingconlab.ru/spoken_bashkir/	corpus	minority	Rakhmetovo	53.82462214311561	58.886474809708155	Bashkir
+Spoken corpus of Bashkir	http://lingconlab.ru/spoken_bashkir/	corpus	minority	Baimovo	53.72758163300355	58.84260186495608	Bashkir
+Spoken corpus of Khakas	http://parasolcorpus.org/dagrus/	corpus	minority	Kazanovka	53.21588574209978	90.04742874076345	Khakas
+Spoken corpus of Khakas	http://parasolcorpus.org/dagrus/	corpus	minority	Butrachty	52.81184384781556	89.9874281348034	Khakas
+Spoken corpus of Khakas	http://parasolcorpus.org/dagrus/	corpus	minority	Chylany	52.813941049059814	90.04211830921673	Khakas
+Spoken corpus of Khakas	http://parasolcorpus.org/dagrus/	corpus	minority	Karagay	52.845508290571374	90.10717158242322	Khakas
+Spoken Corpus of the Besleney Dialect of East Circassian	http://lingconlab.ru/spoken_besleney/	corpus	minority	Ulyap	45.053666519407265	39.94593253974448	Kabardian
+Dictionary of the Tukita language	http://lingconlab.ru/TukitaDict/	dictionary	dictionary	Tukita	42.57056	46.37278	Karata
+Dictionary of the Mehweb language I	https://linghub.ru/mehwebdict/	dictionary	dictionary	Megeb	42.2528	47.0472	Mehweb
+Dictionary of the Mehweb language II	http://lingconlab.ru/MehwebDict/	dictionary	dictionary	Megeb	42.2528	47.0472	Mehweb
+Dictionary of the Rutul language	https://linghub.ru/rutuldict/	dictionary	dictionary	Kina	41.6166	47.2647	Rutul
