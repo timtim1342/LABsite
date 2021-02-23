@@ -1,12 +1,17 @@
 body {
-  font-size: 14px;
+  font-size: 16px;
+  font-family: Open Sans, Helvetica, sans-serif;
    }
 .navbar{
-  font-size: 14px;
+  font-size: 17px;
 }
 #htmlwidget-244aaddf2639520a3f5a{ /*карты на about. временное решение*/
   width: 100% !important;
   height: 700px !important;
+}
+
+.main-container {
+    max-width: 60vw !important; /*в разных браузерах творится разное*/
 }
 
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
