@@ -5,10 +5,10 @@ Spoken corpus of Bashkir	http://lingconlab.ru/spoken_bashkir/	corpus	minority	Ba
 Corpus of Opochetsky dialects	http://lingconlab.ru/luzhnikovo/	corpus	dialectal	Balashi	56.817530393633696	28.68758590886312	Russian
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Balkhar	42.27872959608852	47.231176674231946	Russian
 Corpus of Opochetsky dialects	http://lingconlab.ru/luzhnikovo/	corpus	dialectal	Barabany	56.794103749023805	28.684124062817638	Russian
-Spoken corpus of Khakas	http://parasolcorpus.org/dagrus/	corpus	minority	Butrachty	52.81184384781556	89.9874281348034	Khakas
+Spoken corpus of Khakas	http://lingconlab.ru/spoken_khakas/	corpus	minority	Butrachty	52.81184384781556	89.9874281348034	Khakas
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Chishili	42.1525537527337	47.66966563005805	Russian
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Chuni	42.34978299679263	47.3027470388149	Russian
-Spoken corpus of Khakas	http://parasolcorpus.org/dagrus/	corpus	minority	Chylany	52.813941049059814	90.04211830921673	Khakas
+Spoken corpus of Khakas	http://lingconlab.ru/spoken_khakas/	corpus	minority	Chylany	52.813941049059814	90.04211830921673	Khakas
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Cukhta	42.34340660808177	47.32975273484241	Russian
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Darwag	42.023911620836486	48.062863063121014	Russian
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Dubek	42.02448591223505	47.96547434122964	Russian
@@ -19,8 +19,8 @@ Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bi
 Spoken corpus of Adyghe	http://lingconlab.ru/spoken_adyghe/	corpus	minority	Kabekhabl	45.047325634291006	40.18040899953169	Adyghe
 Corpus of Opochetsky dialects	http://lingconlab.ru/luzhnikovo/	corpus	dialectal	Kadnikovo	56.81217882581824	28.697323495689513	Russian
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Kalib	42.07004342155359	46.86125184461028	Russian
-Spoken corpus of Khakas	http://parasolcorpus.org/dagrus/	corpus	minority	Karagay	52.845508290571374	90.10717158242322	Khakas
-Spoken corpus of Khakas	http://parasolcorpus.org/dagrus/	corpus	minority	Kazanovka	53.21588574209978	90.04742874076345	Khakas
+Spoken corpus of Khakas	http://lingconlab.ru/spoken_khakas/	corpus	minority	Karagay	52.845508290571374	90.10717158242322	Khakas
+Spoken corpus of Khakas	http://lingconlab.ru/spoken_khakas/	corpus	minority	Kazanovka	53.21588574209978	90.04742874076345	Khakas
 Spoken corpus of Adyghe	http://lingconlab.ru/spoken_adyghe/	corpus	minority	Khatazhukay	45.07688950523018	40.18626859273333	Adyghe
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Khiv	41.751611551643585	47.92894776881094	Russian
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Kina	41.6167	47.2648	Russian
@@ -33,8 +33,8 @@ Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bi
 Corpus of Russian spoken in Chuvashia	http://lingconlab.ru/ChuvashRus/	corpus	bilingual	Maloye Karachkino	56.15800108716516	46.76070423415941	Russian
 Corpus of the Russian dialect spoken in Khislavichi district	http://lingconlab.ru/khislavichi/	corpus	dialectal	Malye Khutora	54.12557364704443	32.00218658454533	Russian
 Corpus of Russian spoken in Daghestan	http://parasolcorpus.org/dagrus/	corpus	bilingual	Megeb	42.2530	47.0474	Russian
-Dictionary of the Mehweb language I	https://linghub.ru/mehwebdict/	dictionary	dictionary	Megeb	42.2528	47.0472	Mehweb
-Dictionary of the Mehweb language II	http://lingconlab.ru/MehwebDict/	dictionary	dictionary	Megeb	42.2529	47.0473	Mehweb
+Dictionary of the Mehweb language I	https://linghub.ru/mehwebdict/	dictionary	dictionary	Megeb	42.2528	47.0472	Megeb
+Dictionary of the Mehweb language II	http://lingconlab.ru/MehwebDict/	dictionary	dictionary	Megeb	42.2529	47.0473	Megeb
 Ustja River Basin Corpus	http://www.parasolcorpus.org/Pushkino/login.php	corpus	dialectal	Mikhalevskaya	61.50111115516853	42.65695604008497	Russian
 Corpus of Russian spoken in Zvenigorod	http://lingconlab.ru/zvenigorod/	corpus	dialectal	ND			Russian
 Corpus of the Russian dialect spoken in Nekhochi	http://lingconlab.ru/nekhochi/	corpus	dialectal	Nekhochi	53.439272724060935	34.926708849641805	Russian

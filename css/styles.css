@@ -5,11 +5,41 @@ body {
 .navbar{
   font-size: 18px;
 }
-#htmlwidget-244aaddf2639520a3f5a{ /*карты на about. временное решение*/
+#htmlwidget-244aaddf2639520a3f5a, #htmlwidget-6f66dca5431bfb50b4e6{ /*карты на about. временное решение*/
   width: 100% !important;
   height: 700px !important;
 }
-
+.main-container a{ /*иначе подчеркивания возникают на активной ссылке*/
+  color:#5F9E9F !important;
+  text-decoration: none;
+}
+.main-container a:hover{
+  color:#F6BBBB !important;
+}
+.navbar a{
+  color:#ffffff !important;
+}
+.navbar a:hover{
+  color:#ffffff !important;
+}
+.navbar-brand ~ a:hover{
+  color:#F6BBBB !important;
+}
+.social a{
+  color:#333333 !important;
+}
+.leaflet-control-container a{
+  color:#333333 !important;
+}
+.leaflet-control-container a:hover{
+  color:#333333 !important;
+}
+.nav-tabs a{
+  color:#333333 !important;
+}
+.nav-tabs a:hover{
+  color:#333333 !important;
+}
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   background-color: #333333;
   border-color: #333333;
@@ -80,7 +110,7 @@ body {
   height: 50vh;
   margin-bottom: 5rem;
   border: 10px solid #333;
-  border-width: 20px 0px;
+  border-width: 15px 0px;
   margin-top: 50px;
   text-align: center;
   background: #222 no-repeat center center;
@@ -97,6 +127,50 @@ body {
       text-align: right;
       color: #F5F5F5;
     }
+    
+
+ /* а это прямиком из бутстрапа */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 10px;
+}
+
+.card {
+    display: grid;
+    grid-auto-rows: minmax(80px, auto);
+    border: 1px solid #ddd;
+    padding: 10px;
+    /*grid-template-rows: max-content 1 1fr;*/
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.gry {
+  background-color:#d9d9d9;
+}
+.pnk{
+  background-color:#F6BABC;
+}
+.button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+}
+.button:hover{
+  background:#444;
+}
+.button:active{
+  background:#333;
+}
+    
 /*
 .outer {
   float:left;
