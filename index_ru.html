@@ -11,7 +11,7 @@
 
 
 
-<title>Лаборатория языковой конвергенции</title>
+<title>Международная лаборатория языковой конвергенции</title>
 
 <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,6 +33,8 @@
 <script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
 <script src="site_libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.gstatic.com"> <!--шрифт-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -279,89 +281,92 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Linguistic Convergence Laboratory <a class="langswitcher" href="index.html"> eng </a><a class="langswitcher" href="index_ru.html"> ru </a></a>
+      <a class="navbar-brand" href="index.html">Международная лаборатория языковой конвергенции <a href="index.html"> eng </a><a href="index_ru.html"> ру </a></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
+        <li>
+  <a href="resources_ru.html">Все ресурсы</a>
+</li>
+<li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Corpora
+    Корпуса
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dialectal corpora</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Диалектные корпуса</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="http://lingconlab.ru/khislavichi/">Khislavichi dialects</a>
+          <a href="http://lingconlab.ru/khislavichi/">Хиславичский говор</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/malinino/">Malinino dialect</a>
+          <a href="http://lingconlab.ru/malinino/">Говор с. Малинино</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/nekhochi/">Nekhochi dialect</a>
+          <a href="http://lingconlab.ru/nekhochi/">Говор д. Нехочи</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/luzhnikovo/">Opochetsky dialects</a>
+          <a href="http://lingconlab.ru/luzhnikovo/">Опочецкие говоры</a>
         </li>
         <li>
-          <a href="http://www.parasolcorpus.org/Rogovatka/">Rogovatka dialect</a>
+          <a href="http://www.parasolcorpus.org/Rogovatka/">Говор с. Роговатка</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/SpiridonovaBuda/">Spiridonova Buda dialect</a>
+          <a href="http://lingconlab.ru/SpiridonovaBuda/">Говор с. Спиридонова Буда</a>
         </li>
         <li>
-          <a href="http://www.parasolcorpus.org/Pushkino/login.php">Ustja River Basin dialects</a>
+          <a href="http://www.parasolcorpus.org/Pushkino/login.php">Устьянские говоры</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/zvenigorod/">Zvenigorod dialect</a>
+          <a href="http://lingconlab.ru/zvenigorod/">Говор г. Звенигород</a>
         </li>
       </ul>
     </li>
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Corpora of bilingual Russian</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Корпуса билингвального русского</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="http://lingconlab.ru/BashkirRus/">Bashkortostan Russian</a>
+          <a href="http://lingconlab.ru/BashkirRus/">Башкирский русский</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/BesermanRus/">Beserman Russian</a>
+          <a href="http://lingconlab.ru/BesermanRus/">Бесермянский русский</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/ChuvashRus/">Chuvash Russian</a>
+          <a href="http://lingconlab.ru/ChuvashRus/">Чувашский русский</a>
         </li>
         <li>
-          <a href="http://parasolcorpus.org/dagrus/">Daghestan Russian</a>
+          <a href="http://parasolcorpus.org/dagrus/">Дагестанский русский</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/karelrus/">Karelian Russian</a>
+          <a href="http://lingconlab.ru/karelrus/">Карельский русский</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/cs_yakut/">Yakut Russian</a>
+          <a href="http://lingconlab.ru/cs_yakut/">Якутский русский</a>
         </li>
       </ul>
     </li>
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Spoken corpora of minority languages of Russia</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Корпуса малых языков России</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="http://lingconlab.ru/spoken_abaza/">Abaza</a>
+          <a href="http://lingconlab.ru/spoken_abaza/">Абазинский язык</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/spoken_adyghe/">Adyghe</a>
+          <a href="http://lingconlab.ru/spoken_adyghe/">Адыгейский язык</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/spoken_bashkir/">Bashkir</a>
+          <a href="http://lingconlab.ru/spoken_bashkir/">Башкирский язык</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/spoken_besleney/">Kabardian</a>
+          <a href="http://lingconlab.ru/spoken_besleney/">Кабардино-черкесский язык</a>
         </li>
         <li>
-          <a href="http://lingconlab.ru/spoken_khakas/">Khakas</a>
+          <a href="http://lingconlab.ru/spoken_khakas/">Хакасский язык</a>
         </li>
       </ul>
     </li>
@@ -369,28 +374,28 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Dictionaries
+    Словари
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="https://linghub.ru/mehwebdict/">Mehweb I</a>
+      <a href="https://linghub.ru/mehwebdict/">Мегебский язык I</a>
     </li>
     <li>
-      <a href="http://lingconlab.ru/MehwebDict/">Mehweb II</a>
+      <a href="http://lingconlab.ru/MehwebDict/">Мегебский язык II</a>
     </li>
     <li>
-      <a href="https://linghub.ru/rutuldict/">Rutul</a>
+      <a href="https://linghub.ru/rutuldict/">Рутульский язык</a>
     </li>
     <li>
-      <a href="http://lingconlab.ru/TukitaDict/">Tukita</a>
+      <a href="http://lingconlab.ru/TukitaDict/">Тукитинский язык</a>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Other Resources
+    Другие проекты
      
     <span class="caret"></span>
   </a>
@@ -399,13 +404,13 @@ $(document).ready(function () {
       <a href="http://lingconlab.ru/dagswadesh/">DagSwadesh</a>
     </li>
     <li>
-      <a href="http://lingconlab.ru/dagloans/">Daghestanian loans database</a>
+      <a href="http://lingconlab.ru/dagloans/">DagLoans</a>
     </li>
     <li>
-      <a href="https://multidagestan.com/">Atlas of multilingualism in Daghestan</a>
+      <a href="https://multidagestan.com/">MultiDag</a>
     </li>
     <li>
-      <a href="http://lingconlab.ru/dagatlas/">Typological Atlas of the languages of Daghestan</a>
+      <a href="http://lingconlab.ru/dagatlas/">TALD</a>
     </li>
   </ul>
 </li>
@@ -418,427 +423,35 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Лаборатория языковой конвергенции</h1>
+<h1 class="title toc-ignore">Международная лаборатория языковой конвергенции</h1>
 
 </div>
 
 
-<p>Одна из задач <a href="https://ilcl.hse.ru/">Лаборатории языковой конвергенции</a> заключается в создании языковых ресурсов. В сотрудничестве с лингвистами из других институтов мы собираем и обрабатываем данные для <a href="#m2">словарей</a>, разрабатываем <a href="#m1">устные корпуса</a> билингвального и диалектного русского, а также других малых языков России. Помимо этого, мы работаем над <a href="#m3">проектами</a>, посвященными языковым контактам и распределению различных грамматических свойств на территории Дагестана, одной из наиболее мультиязычной области России.</p>
+<p>Одна из задач <a href="https://ilcl.hse.ru/">Лаборатории языковой конвергенции</a> заключается в создании языковых ресурсов. В сотрудничестве с лингвистами из других институтов мы собираем и обрабатываем данные для <a href="resources_ru.html#m2">словарей</a>, разрабатываем <a href="resources_ru.html#m1">устные корпуса</a> билингвального и диалектного русского, а также других малых языков России. Помимо этого, мы работаем над <a href="resources_ru.html#m3">проектами</a>, посвященными языковым контактам и распределению различных грамматических свойств на территории Дагестана, одной из наиболее мультиязычной области России.</p>
 
 <div class="main-image" style="background-image: url('images/karat.jpg'); background-position: 0% 65%;">
-  <div class="attrib"> Арчо, Ахвахский район, Дагестан <br> Тимофей Мухин </div>
+  <div class="attrib"> с. Арчо, Ахвахский район, Дагестан <br> Тимофей Мухин </div>
 </div>
 
-<div id="география-источников-данных-для-корпусов-и-словарей" class="section level1">
+<div id="география-источников-данных-для-корпусов-и-словарей" class="section level1 tabset">
 <h1>География источников данных для корпусов и словарей</h1>
+<div id="все-данные" class="section level2">
+<h2>Все данные</h2>
 <div id="htmlwidget-244aaddf2639520a3f5a" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-244aaddf2639520a3f5a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addTiles","args":["Stamen.TonerLite",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]},{"method":"addProviderTiles","args":["Stamen.TonerLite",null,"Stamen.TonerLite",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[42.0667737913141,53.7377439427896,53.7275816330036,56.8175303936337,42.2787295960885,56.7941037490238,52.8118438478156,42.1525537527337,42.3497829967926,52.8139410490598,42.3434066080818,42.0239116208365,42.0244859122351,42.6354041927863,56.8132000251311,44.0461459817847,41.997634849241,45.047325634291,56.8121788258182,42.0700434215536,52.8455082905714,53.2158857420998,45.0768895052302,41.7516115516436,41.6167,41.6166,61.5288706079825,64.6256050950421,42.9783630890781,52.2971451922232,42.1731202031857,56.1580010871652,54.1255736470444,42.253,42.2528,42.2529,61.5011111551685,53.4392727240609,42.0752038246737,61.8854386188771,61.6998197462665,45.0640202992501,56.7716087858632,53.8246221431156,42.7814853152129,51.2501341810638,42.090877134908,58.0176303487814,42.2462440441286,53.9797741389512,52.2960319548886,54.1331336744997,42.5610279346735,42.57057,42.57056,45.0536665194073,61.5840497029774,42.3670929471883,64.9636709620851,62.0997772673689,42.205218594637,42.0207413383442,54.0310020318232,53.9973651792486,42.7326849271676],[46.8686891234647,58.8417521398863,58.8426018649561,28.6875859088631,47.2311766742319,28.6841240628176,89.9874281348034,47.669665630058,47.3027470388149,90.0421183092167,47.3297527348424,48.062863063121,47.9654743412296,47.2237373834487,28.6823936395506,41.7812629017135,47.5843546506572,40.1804089995317,28.6973234956895,46.8612518446103,90.1071715824232,90.0474287407635,40.1862685927333,47.9289477688109,47.2648,47.2647,32.8290234921356,30.599377753857,47.4828249266475,39.3490966512283,47.7944906228771,46.7607042341594,32.0021865845453,47.0474,47.0472,47.0473,42.656956040085,34.9267088496418,46.4117938699763,34.3590797360788,33.6219219200116,40.1760035538134,28.6706934313375,58.8864748097082,46.3174227964206,38.3774542925194,46.917931536218,52.1504272351055,47.0005311482544,31.9937206687928,31.7879477629945,32.0140353069345,46.3016299250685,46.37279,46.37278,39.9459325397445,32.8425986617033,47.2450750893441,30.5597267894316,129.728479425133,47.8278686163628,48.0088832632428,31.898147668221,32.0073663363946,46.3217620718405],6.6,null,["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],{"interactive":true,"className":"","stroke":false,"color":"black","weight":5,"opacity":0.5,"fill":true,"fillColor":"black","fillOpacity":1},null,null,["<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Archib <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Baimovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BashkirRus/ \"> Corpus of Russian spoken in Bashkortostan","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Топоним:<\/b> Baimovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Spoken corpus of Bashkir","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Balashi <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Balkhar <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Barabany <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Butrachty <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Chishili <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Chuni <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Chylany <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Cukhta <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Darwag <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Dubek <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Durangi <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Glazanovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/abaz1241' target='_blank'>Abaza<\/a><br><b>Топоним:<\/b> Inzhich-Chukun <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_abaza/ \"> Spoken corpus of Abaza","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Itsari <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Kabekhabl <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kadnikovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kalib <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Karagay <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Kazanovka <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Khatazhukay <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Khiv <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kina <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/rutu1240' target='_blank'>Rutul<\/a><br><b>Топоним:<\/b> Kina <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/rutuldict/ \"> Dictionary of the Rutul language","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kinerma <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kostomuksha <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Makhachkala <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Malinino <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/malinino/ \"> Corpus of the Russian dialect spoken in the village Malinino","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Mallakent <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Maloye Karachkino <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/ChuvashRus/ \"> Corpus of Russian spoken in Chuvashia","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Malye Khutora <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Megeb <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","NA<br><b>Топоним:<\/b> Megeb <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/mehwebdict/ \"> Dictionary of the Mehweb language I","NA<br><b>Топоним:<\/b> Megeb <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MehwebDict/ \"> Dictionary of the Mehweb language II","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Mikhalevskaya <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Pushkino/login.php \"> Ustja River Basin Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Nekhochi <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/nekhochi/ \"> Corpus of the Russian dialect spoken in Nekhochi","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Nikar <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Petrozavodsk <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Pryazha <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Pshicho <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Purshevo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Топоним:<\/b> Rakhmetovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Spoken corpus of Bashkir","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Rikvani <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Rogovatoye <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Rogovatka/ \"> Corpus of Rogovatka dialect","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Shalib <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Shamardan <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BesermanRus/ \"> Corpus of Russian spoken by the Besermans","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Shangoda <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Soino <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Spiridonova Buda <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/SpiridonovaBuda/ \"> Corpus of Spiridonova Buda dialect","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Stajki <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Tlibisho <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Tukita <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/kara1474' target='_blank'>Karata<\/a><br><b>Топоним:<\/b> Tukita <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/TukitaDict/ \"> Dictionary of the Tukita language","<a href='https://glottolog.org/resource/languoid/id/kaba1278' target='_blank'>Kabardian<\/a><br><b>Топоним:<\/b> Ulyap <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_besleney/ \"> Spoken Corpus of the Besleney Dialect of East Circassian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Vedlozero <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Verkhniye Ubeki <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Voknavolok <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Yakutsk <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/cs_yakut/ \"> Yakut-Russian Code-Switching Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Yangikent <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Yersi <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Zhanvil <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Zhygalki <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Zilo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[42.0667737913141,53.7377439427896,53.7275816330036,56.8175303936337,42.2787295960885,56.7941037490238,52.8118438478156,42.1525537527337,42.3497829967926,52.8139410490598,42.3434066080818,42.0239116208365,42.0244859122351,42.6354041927863,56.8132000251311,44.0461459817847,41.997634849241,45.047325634291,56.8121788258182,42.0700434215536,52.8455082905714,53.2158857420998,45.0768895052302,41.7516115516436,41.6167,41.6166,61.5288706079825,64.6256050950421,42.9783630890781,52.2971451922232,42.1731202031857,56.1580010871652,54.1255736470444,42.253,42.2528,42.2529,61.5011111551685,53.4392727240609,42.0752038246737,61.8854386188771,61.6998197462665,45.0640202992501,56.7716087858632,53.8246221431156,42.7814853152129,51.2501341810638,42.090877134908,58.0176303487814,42.2462440441286,53.9797741389512,52.2960319548886,54.1331336744997,42.5610279346735,42.57057,42.57056,45.0536665194073,61.5840497029774,42.3670929471883,64.9636709620851,62.0997772673689,42.205218594637,42.0207413383442,54.0310020318232,53.9973651792486,42.7326849271676],[46.8686891234647,58.8417521398863,58.8426018649561,28.6875859088631,47.2311766742319,28.6841240628176,89.9874281348034,47.669665630058,47.3027470388149,90.0421183092167,47.3297527348424,48.062863063121,47.9654743412296,47.2237373834487,28.6823936395506,41.7812629017135,47.5843546506572,40.1804089995317,28.6973234956895,46.8612518446103,90.1071715824232,90.0474287407635,40.1862685927333,47.9289477688109,47.2648,47.2647,32.8290234921356,30.599377753857,47.4828249266475,39.3490966512283,47.7944906228771,46.7607042341594,32.0021865845453,47.0474,47.0472,47.0473,42.656956040085,34.9267088496418,46.4117938699763,34.3590797360788,33.6219219200116,40.1760035538134,28.6706934313375,58.8864748097082,46.3174227964206,38.3774542925194,46.917931536218,52.1504272351055,47.0005311482544,31.9937206687928,31.7879477629945,32.0140353069345,46.3016299250685,46.37279,46.37278,39.9459325397445,32.8425986617033,47.2450750893441,30.5597267894316,129.728479425133,47.8278686163628,48.0088832632428,31.898147668221,32.0073663363946,46.3217620718405],6,null,["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],{"interactive":true,"className":"","stroke":false,"color":["#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC"],"fillOpacity":1},null,null,["<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Archib <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Baimovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BashkirRus/ \"> Corpus of Russian spoken in Bashkortostan","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Топоним:<\/b> Baimovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Spoken corpus of Bashkir","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Balashi <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Balkhar <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Barabany <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Butrachty <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Chishili <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Chuni <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Chylany <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Cukhta <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Darwag <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Dubek <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Durangi <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Glazanovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/abaz1241' target='_blank'>Abaza<\/a><br><b>Топоним:<\/b> Inzhich-Chukun <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_abaza/ \"> Spoken corpus of Abaza","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Itsari <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Kabekhabl <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kadnikovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kalib <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Karagay <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Kazanovka <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Khatazhukay <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Khiv <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kina <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/rutu1240' target='_blank'>Rutul<\/a><br><b>Топоним:<\/b> Kina <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/rutuldict/ \"> Dictionary of the Rutul language","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kinerma <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Kostomuksha <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Makhachkala <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Malinino <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/malinino/ \"> Corpus of the Russian dialect spoken in the village Malinino","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Mallakent <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Maloye Karachkino <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/ChuvashRus/ \"> Corpus of Russian spoken in Chuvashia","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Malye Khutora <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Megeb <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","NA<br><b>Топоним:<\/b> Megeb <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/mehwebdict/ \"> Dictionary of the Mehweb language I","NA<br><b>Топоним:<\/b> Megeb <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MehwebDict/ \"> Dictionary of the Mehweb language II","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Mikhalevskaya <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Pushkino/login.php \"> Ustja River Basin Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Nekhochi <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/nekhochi/ \"> Corpus of the Russian dialect spoken in Nekhochi","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Nikar <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Petrozavodsk <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Pryazha <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Pshicho <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Purshevo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Топоним:<\/b> Rakhmetovo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Spoken corpus of Bashkir","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Rikvani <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Rogovatoye <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Rogovatka/ \"> Corpus of Rogovatka dialect","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Shalib <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Shamardan <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BesermanRus/ \"> Corpus of Russian spoken by the Besermans","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Shangoda <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Soino <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Spiridonova Buda <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/SpiridonovaBuda/ \"> Corpus of Spiridonova Buda dialect","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Stajki <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Tlibisho <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Tukita <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/kara1474' target='_blank'>Karata<\/a><br><b>Топоним:<\/b> Tukita <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/TukitaDict/ \"> Dictionary of the Tukita language","<a href='https://glottolog.org/resource/languoid/id/kaba1278' target='_blank'>Kabardian<\/a><br><b>Топоним:<\/b> Ulyap <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_besleney/ \"> Spoken Corpus of the Besleney Dialect of East Circassian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Vedlozero <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Verkhniye Ubeki <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Voknavolok <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Yakutsk <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/cs_yakut/ \"> Yakut-Russian Code-Switching Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Yangikent <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Yersi <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Zhanvil <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Zhygalki <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Zilo <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan"],null,null,{"interactive":false,"permanent":false,"direction":"right","opacity":1,"offset":[7.5,0],"textsize":"10px","textOnly":true,"style":{"font-size":"15px","font-family":"sans-serif"},"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]}],"limits":{"lat":[41.6166,64.9636709620851],"lng":[28.6706934313375,129.728479425133]}},"evals":[],"jsHooks":[]}</script>
-
-<div class="main-image" style="background-image: url('images/push1.jpg'); background-position: 0% 65%;">
-  <div class="attrib"> д. Пушкино-Михалёвская, Вельский район, Архангельская область <br> Михаил Даниэль </div>
+<script type="application/json" data-for="htmlwidget-244aaddf2639520a3f5a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addTiles","args":["Stamen.TonerLite",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]},{"method":"addProviderTiles","args":["Stamen.TonerLite",null,"Stamen.TonerLite",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[42.0667737913141,53.7377439427896,53.7275816330036,56.8175303936337,42.2787295960885,56.7941037490238,52.8118438478156,61.5840497029774,42.3670929471883,64.9636709620851,56.8132000251311,42.0239116208365,42.0244859122351,42.6354041927863,42.0207413383442,54.0310020318232,53.9973651792486,55.7244642662795,42.7326849271676,44.0461459817847,41.997634849241,45.047325634291,56.8121788258182,53.2158857420998,42.0700434215536,52.8455082905714,41.6166,41.6186,61.5288706079825,64.6256050950421,52.2971451922232,42.1731202031857,56.1580010871652,54.1255736470444,42.9783630890781,42.2528,42.2548,42.2568,61.5011111551685,53.4392727240609,42.0752038246737,61.8854386188771,61.6998197462665,56.7716087858632,45.0640202992501,53.8246221431156,42.7814853152129,51.2501341810638,53.9797741389512,52.2960319548886,54.1331336744997,42.5610279346735,42.57056,42.57076,45.0536665194073,45.0768895052302,41.7516115516436,42.3434066080818,52.8139410490598,42.1525537527337,42.3497829967926,42.090877134908,58.0176303487814,42.2462440441286,62.0997772673689,42.205218594637],[46.8686891234647,58.8417521398863,58.8426018649561,28.6875859088631,47.2311766742319,28.6841240628176,89.9874281348034,32.8425986617033,47.2450750893441,30.5597267894316,28.6823936395506,48.062863063121,47.9654743412296,47.2237373834487,48.0088832632428,31.898147668221,32.0073663363946,36.8359550846001,46.3217620718405,41.7812629017135,47.5843546506572,40.1804089995317,28.6973234956895,90.0474287407635,46.8612518446103,90.1071715824232,47.2647,47.2667,32.8290234921356,30.599377753857,39.3490966512283,47.7944906228771,46.7607042341594,32.0021865845453,47.4828249266475,47.0472,47.0492,47.0512,42.656956040085,34.9267088496418,46.4117938699763,34.3590797360788,33.6219219200116,28.6706934313375,40.1760035538134,58.8864748097082,46.3174227964206,38.3774542925194,31.9937206687928,31.7879477629945,32.0140353069345,46.3016299250685,46.37278,46.37298,39.9459325397445,40.1862685927333,47.9289477688109,47.3297527348424,90.0421183092167,47.669665630058,47.3027470388149,46.917931536218,52.1504272351055,47.0005311482544,129.728479425133,47.8278686163628],6.6,null,["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],{"interactive":true,"className":"","stroke":false,"color":"black","weight":5,"opacity":0.5,"fill":true,"fillColor":"black","fillOpacity":1},null,null,["<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Арчиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Баимово <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BashkirRus/ \"> Корпус русской речи Башкирии","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Топоним:<\/b> Баимово <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Устный корпус башкирского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Балаши <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Балхар <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Барабаны <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Бутрахты <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Устный корпус диалектов хакасского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ведлозеро <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Верхние Убеки <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Вокнаволок <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Глазаново <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дарваг <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дубек <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дуранги <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ерси <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Жанвиль <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Жигалки <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Звенигород <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/zvenigorod/ \"> Корпус говора города Звенигород","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Зило <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/abaz1241' target='_blank'>Abaza<\/a><br><b>Топоним:<\/b> Инжич-Чукун <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_abaza/ \"> Устный корпус абазинского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ицари <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Кабехабль <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Устный корпус адыгейского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Кадниково <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Казановка <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Устный корпус диалектов хакасского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Калиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Карагай <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Устный корпус диалектов хакасского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Кина <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/rutu1240' target='_blank'>Rutul<\/a><br><b>Топоним:<\/b> Кина <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/rutuldict/ \"> Словарь рутульского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Кинерма <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Костомукша <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Малинино <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/malinino/ \"> Корпус говора села Малинино","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Маллакент <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Малое Карачкино <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/ChuvashRus/ \"> Корпус русской речи Чувашии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Малые Хутора <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Махачкала <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/mehwebdict/ \"> Словарь мегебского языка I","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MehwebDict/ \"> Словарь мегебского языка II","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Михалёвская <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Pushkino/login.php \"> Корпус устьянских говоров","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Нехочи <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/nekhochi/ \"> Корпус говора деревни Нехочи","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Никар <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Петрозаводск <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Пряжа <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Пуршево <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Пшичо <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Устный корпус адыгейского языка","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Топоним:<\/b> Рахметово <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Устный корпус башкирского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Риквани <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Роговатое <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Rogovatka/ \"> Корпус говора села Роговатка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Соино <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Спиридонова Буда <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/SpiridonovaBuda/ \"> Корпус говора села Спиридонова Буда","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Стайки <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Тлибишо <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Тукита <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/kara1474' target='_blank'>Karata<\/a><br><b>Топоним:<\/b> Тукита <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/TukitaDict/ \"> Словарь тукитинского языка","<a href='https://glottolog.org/resource/languoid/id/kaba1278' target='_blank'>Kabardian<\/a><br><b>Топоним:<\/b> Уляп <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_besleney/ \"> Устный корпус бесленеевского диалекта кабардино-черкесского языка","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Хатажукай <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Устный корпус адыгейского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Хив <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Цухта <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Чиланы <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Устный корпус диалектов хакасского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Чишили <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Чуни <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шалиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шамардан <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BesermanRus/ \"> Корпус русской речи бесермян","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шангода <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Якутск <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/cs_yakut/ \"> Якутско-русский корпус переключения кода","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Янгикент <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[42.0667737913141,53.7377439427896,53.7275816330036,56.8175303936337,42.2787295960885,56.7941037490238,52.8118438478156,61.5840497029774,42.3670929471883,64.9636709620851,56.8132000251311,42.0239116208365,42.0244859122351,42.6354041927863,42.0207413383442,54.0310020318232,53.9973651792486,55.7244642662795,42.7326849271676,44.0461459817847,41.997634849241,45.047325634291,56.8121788258182,53.2158857420998,42.0700434215536,52.8455082905714,41.6166,41.6186,61.5288706079825,64.6256050950421,52.2971451922232,42.1731202031857,56.1580010871652,54.1255736470444,42.9783630890781,42.2528,42.2548,42.2568,61.5011111551685,53.4392727240609,42.0752038246737,61.8854386188771,61.6998197462665,56.7716087858632,45.0640202992501,53.8246221431156,42.7814853152129,51.2501341810638,53.9797741389512,52.2960319548886,54.1331336744997,42.5610279346735,42.57056,42.57076,45.0536665194073,45.0768895052302,41.7516115516436,42.3434066080818,52.8139410490598,42.1525537527337,42.3497829967926,42.090877134908,58.0176303487814,42.2462440441286,62.0997772673689,42.205218594637],[46.8686891234647,58.8417521398863,58.8426018649561,28.6875859088631,47.2311766742319,28.6841240628176,89.9874281348034,32.8425986617033,47.2450750893441,30.5597267894316,28.6823936395506,48.062863063121,47.9654743412296,47.2237373834487,48.0088832632428,31.898147668221,32.0073663363946,36.8359550846001,46.3217620718405,41.7812629017135,47.5843546506572,40.1804089995317,28.6973234956895,90.0474287407635,46.8612518446103,90.1071715824232,47.2647,47.2667,32.8290234921356,30.599377753857,39.3490966512283,47.7944906228771,46.7607042341594,32.0021865845453,47.4828249266475,47.0472,47.0492,47.0512,42.656956040085,34.9267088496418,46.4117938699763,34.3590797360788,33.6219219200116,28.6706934313375,40.1760035538134,58.8864748097082,46.3174227964206,38.3774542925194,31.9937206687928,31.7879477629945,32.0140353069345,46.3016299250685,46.37278,46.37298,39.9459325397445,40.1862685927333,47.9289477688109,47.3297527348424,90.0421183092167,47.669665630058,47.3027470388149,46.917931536218,52.1504272351055,47.0005311482544,129.728479425133,47.8278686163628],6,null,["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],{"interactive":true,"className":"","stroke":false,"color":["#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC"],"fillOpacity":1},null,null,["<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Арчиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Баимово <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BashkirRus/ \"> Корпус русской речи Башкирии","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Топоним:<\/b> Баимово <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Устный корпус башкирского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Балаши <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Балхар <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Барабаны <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Бутрахты <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Устный корпус диалектов хакасского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ведлозеро <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Верхние Убеки <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Вокнаволок <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Глазаново <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дарваг <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дубек <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дуранги <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ерси <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Жанвиль <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Жигалки <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Звенигород <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/zvenigorod/ \"> Корпус говора города Звенигород","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Зило <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/abaz1241' target='_blank'>Abaza<\/a><br><b>Топоним:<\/b> Инжич-Чукун <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_abaza/ \"> Устный корпус абазинского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ицари <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Кабехабль <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Устный корпус адыгейского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Кадниково <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Казановка <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Устный корпус диалектов хакасского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Калиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Карагай <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Устный корпус диалектов хакасского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Кина <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/rutu1240' target='_blank'>Rutul<\/a><br><b>Топоним:<\/b> Кина <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/rutuldict/ \"> Словарь рутульского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Кинерма <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Костомукша <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Малинино <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/malinino/ \"> Корпус говора села Малинино","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Маллакент <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Малое Карачкино <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/ChuvashRus/ \"> Корпус русской речи Чувашии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Малые Хутора <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Махачкала <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/mehwebdict/ \"> Словарь мегебского языка I","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MehwebDict/ \"> Словарь мегебского языка II","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Михалёвская <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Pushkino/login.php \"> Корпус устьянских говоров","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Нехочи <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/nekhochi/ \"> Корпус говора деревни Нехочи","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Никар <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Петрозаводск <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Пряжа <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Корпус русской речи Карелии","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Пуршево <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Корпус опочецких говоров","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Пшичо <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Устный корпус адыгейского языка","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Топоним:<\/b> Рахметово <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Устный корпус башкирского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Риквани <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Роговатое <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Rogovatka/ \"> Корпус говора села Роговатка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Соино <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Спиридонова Буда <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/SpiridonovaBuda/ \"> Корпус говора села Спиридонова Буда","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Стайки <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Корпус говора Хиславичского района","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Тлибишо <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Тукита <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/kara1474' target='_blank'>Karata<\/a><br><b>Топоним:<\/b> Тукита <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/TukitaDict/ \"> Словарь тукитинского языка","<a href='https://glottolog.org/resource/languoid/id/kaba1278' target='_blank'>Kabardian<\/a><br><b>Топоним:<\/b> Уляп <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_besleney/ \"> Устный корпус бесленеевского диалекта кабардино-черкесского языка","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Топоним:<\/b> Хатажукай <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Устный корпус адыгейского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Хив <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Цухта <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Топоним:<\/b> Чиланы <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Устный корпус диалектов хакасского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Чишили <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Чуни <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шалиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шамардан <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BesermanRus/ \"> Корпус русской речи бесермян","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шангода <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Якутск <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/cs_yakut/ \"> Якутско-русский корпус переключения кода","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Янгикент <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского"],null,null,{"interactive":false,"permanent":false,"direction":"right","opacity":1,"offset":[7.5,0],"textsize":"10px","textOnly":true,"style":{"font-size":"15px","font-family":"sans-serif"},"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addLegend","args":[{"colors":["#FFBCBC","#5F9EA0"],"labels":["корпус","словарь"],"na_color":null,"na_label":"NA","opacity":1,"position":"topright","type":"factor","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]}],"limits":{"lat":[41.6166,64.9636709620851],"lng":[28.6706934313375,129.728479425133]}},"evals":[],"jsHooks":[]}</script>
 </div>
-
-</div>
-<div id="m1" class="section level1 tabset">
-<h1>Устные корпуса</h1>
-<hr />
-<p>В Лаборатории языковой конвергенции мы создаем устный корпуса — базы устных текстов, записанные на аудио, расшифрованные и отглоссированные. Доступ к исходным аудиозаписям позволяет исследователям изучать языки на разных уровнях, не полагаясь на чужую транскрипцию. Функция поиска в корпусах возможна благодаря стандартизированному глоссированию текстов, поэтому любое изучение языковых особенностей в разговорных корпусах требует как работы с текстом, так и прослушивания всех используемых примеров.</p>
-<p>В Лаборатории мы разрабатываем корпуса диалектной, региональной и двуязычной речи, записанной преимущественно в сельской местности.</p>
-<p>Важной особенностью разговорных корпусов Лаборатории является наличие дополнительных социолингвистических метаданных о говорящих, которые включают информацию об их возрасте, поле, образовании, месте жительства и владении другими языками.</p>
-<p>Разговорные корпуса разрабатываются в сотрудничестве с исследователями из других университетов и институтов. Мы готовы к сотрудничеству для разработки новых языковых ресурсов, аналогичных уже созданным.</p>
-<div id="диалектные-корпуса" class="section level2">
-<h2>Диалектные корпуса</h2>
-
-<div class="cards">
-    <article class="card gry">
-        <header>
-            <h2>Хиславичский говор</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/khislavichi/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Говор с. Малинино</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/malinino/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card gry">
-        <header>
-            <h2>Говор д. Нехочи</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/nekhochi/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Опочецкие говоры</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/luzhnikovo/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Говор с. Роговатка</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://www.parasolcorpus.org/Rogovatka/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card pnk">
-        <header>
-            <h2>Говор с. Спиридонова Буда</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/SpiridonovaBuda/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Устьянские говоры</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://www.parasolcorpus.org/Pushkino/login.php" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Звенигородский говор</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/zvenigorod/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-</div>
-
-</div>
-<div id="корпуса-билингвального-русского" class="section level2">
-<h2>Корпуса билингвального русского</h2>
-
-<div class="cards">
-    <article class="card gry">
-        <header>
-            <h2>Башкирский русский</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/BashkirRus/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Бесермянский русский</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/BesermanRus/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Чувашский русский</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/ChuvashRus/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card pnk">
-        <header>
-            <h2>Дагестанский русский</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://parasolcorpus.org/dagrus/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Карельский русский</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/karelrus/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Якутский русский</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/cs_yakut/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-</div>
-
-</div>
-<div id="корпуса-малых-языков-россии" class="section level2">
-<h2>Корпуса малых языков России</h2>
-
-<div class="cards">
-    <article class="card">
-        <header>
-            <h2>Абазинский язык</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/spoken_abaza/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card gry">
-        <header>
-            <h2>Адыгейский язык</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/spoken_adyghe/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Башкирский язык</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/spoken_bashkir/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Кабардино-черкесский язык</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/spoken_besleney/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card pnk">
-        <header>
-            <h2>Хакасский язык</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/spoken_khakas/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-</div>
-
+<div id="дагестан" class="section level2">
+<h2>Дагестан</h2>
+<div id="htmlwidget-6f66dca5431bfb50b4e6" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6f66dca5431bfb50b4e6">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addTiles","args":["Stamen.TonerLite",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]},{"method":"addProviderTiles","args":["Stamen.TonerLite",null,"Stamen.TonerLite",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[42.0667737913141,42.2787295960885,42.3670929471883,42.0239116208365,42.0244859122351,42.6354041927863,42.0207413383442,42.7326849271676,41.997634849241,42.0700434215536,41.6166,41.6186,42.1731202031857,42.9783630890781,42.2528,42.2548,42.2568,42.0752038246737,42.7814853152129,42.5610279346735,42.57056,42.57076,41.7516115516436,42.3434066080818,42.1525537527337,42.3497829967926,42.090877134908,42.2462440441286,42.205218594637],[46.8686891234647,47.2311766742319,47.2450750893441,48.062863063121,47.9654743412296,47.2237373834487,48.0088832632428,46.3217620718405,47.5843546506572,46.8612518446103,47.2647,47.2667,47.7944906228771,47.4828249266475,47.0472,47.0492,47.0512,46.4117938699763,46.3174227964206,46.3016299250685,46.37278,46.37298,47.9289477688109,47.3297527348424,47.669665630058,47.3027470388149,46.917931536218,47.0005311482544,47.8278686163628],6.6,null,["","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],{"interactive":true,"className":"","stroke":false,"color":"black","weight":5,"opacity":0.5,"fill":true,"fillColor":"black","fillOpacity":1},null,null,["<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Арчиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Балхар <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Верхние Убеки <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дарваг <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дубек <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дуранги <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ерси <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Зило <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ицари <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Калиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Кина <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/rutu1240' target='_blank'>Rutul<\/a><br><b>Топоним:<\/b> Кина <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/rutuldict/ \"> Словарь рутульского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Маллакент <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Махачкала <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/mehwebdict/ \"> Словарь мегебского языка I","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MehwebDict/ \"> Словарь мегебского языка II","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Никар <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Риквани <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Тлибишо <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Тукита <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/kara1474' target='_blank'>Karata<\/a><br><b>Топоним:<\/b> Тукита <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/TukitaDict/ \"> Словарь тукитинского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Хив <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Цухта <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Чишили <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Чуни <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шалиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шангода <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Янгикент <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[42.0667737913141,42.2787295960885,42.3670929471883,42.0239116208365,42.0244859122351,42.6354041927863,42.0207413383442,42.7326849271676,41.997634849241,42.0700434215536,41.6166,41.6186,42.1731202031857,42.9783630890781,42.2528,42.2548,42.2568,42.0752038246737,42.7814853152129,42.5610279346735,42.57056,42.57076,41.7516115516436,42.3434066080818,42.1525537527337,42.3497829967926,42.090877134908,42.2462440441286,42.205218594637],[46.8686891234647,47.2311766742319,47.2450750893441,48.062863063121,47.9654743412296,47.2237373834487,48.0088832632428,46.3217620718405,47.5843546506572,46.8612518446103,47.2647,47.2667,47.7944906228771,47.4828249266475,47.0472,47.0492,47.0512,46.4117938699763,46.3174227964206,46.3016299250685,46.37278,46.37298,47.9289477688109,47.3297527348424,47.669665630058,47.3027470388149,46.917931536218,47.0005311482544,47.8278686163628],6,null,["","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],{"interactive":true,"className":"","stroke":false,"color":["#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC"],"fillOpacity":1},null,null,["<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Арчиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Балхар <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Верхние Убеки <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дарваг <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дубек <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Дуранги <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ерси <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Зило <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Ицари <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Калиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Кина <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/rutu1240' target='_blank'>Rutul<\/a><br><b>Топоним:<\/b> Кина <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/rutuldict/ \"> Словарь рутульского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Маллакент <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Махачкала <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/mehwebdict/ \"> Словарь мегебского языка I","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Топоним:<\/b> Мегеб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MehwebDict/ \"> Словарь мегебского языка II","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Никар <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Риквани <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Тлибишо <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Тукита <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/kara1474' target='_blank'>Karata<\/a><br><b>Топоним:<\/b> Тукита <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/TukitaDict/ \"> Словарь тукитинского языка","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Хив <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Цухта <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Чишили <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Чуни <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шалиб <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Шангода <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Топоним:<\/b> Янгикент <br> <b>Проект:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Корпус дагестанского русского"],null,null,{"interactive":false,"permanent":false,"direction":"right","opacity":1,"offset":[7.5,0],"textsize":"10px","textOnly":true,"style":{"font-size":"15px","font-family":"sans-serif"},"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addLegend","args":[{"colors":["#FFBCBC","#5F9EA0"],"labels":["корпус","словарь"],"na_color":null,"na_label":"NA","opacity":1,"position":"topright","type":"factor","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]}],"limits":{"lat":[41.6166,42.9783630890781],"lng":[46.3016299250685,48.062863063121]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div id="section" class="section level1 unnumbered">
 <h1></h1>
 
-<div class="main-image" style="background-image: url('images/karat2.jpg'); background-position: 0% 65%;">
-  <div class="attrib"> надКаратовье, Ахвахский район, Дагестан <br> Тимофей Мухин </div>
-</div>
-
-<!-- ## Dialectal corpora -->
-<!-- Oral corpora of dialectal and regional variants of Russian are developed by the Linguistic Convergence Laboratory in cooperation with dialectologists from the V. V. Vinogradov Institute of Russian Language of the Russian Academy of Sciences, St. Petersburg State University, and other universities and institutes. Currently, corpora of northern, southern, and central Russian dialects are accessible. -->
-<!-- ## Corpora of bilingual Russian -->
-<!-- Oral corpora of bilingual variants of Russian are recordings of interviews with residents of those regions of Russia where Russian is a second language. Research on Russian speech in these regions makes it possible to draw conclusions about the influence of local languages on Russian and about the mastering of a second language. -->
-<!-- ## Spoken corpora of minority languages of Russia -->
-<!-- Oral corpora of minority languages of Russia are developed by the Linguistic Convergence Laboratory in cooperation with researchers from the Institute of Linguistics and the Institute of Linguistic Studies of the Russian Academy of Sciences, and others. The corpora consist of audio texts with accompanying transcriptions, translations into Russian, and glosses (word-by-word translations with grammatical analysis). -->
-</div>
-<div id="m2" class="section level1">
-<h1>Словари</h1>
-<hr />
-<p>Словари созданы на материале аудио и текстовых данных, записанных в нескольких аулах Дагестана. Словарные списки составлены исходя из концепции о едином сравнительном лексиконе языков Дагестана и охватывают списки Сводеша и тезаурус Кибрика и Кодзасова для дагестанских языков.</p>
-
-<div class="cards">
-    <article class="card pnk">
-        <header>
-            <h2>Мегебский язык I</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="https://linghub.ru/mehwebdict/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Мегебский язык II</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/MehwebDict/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Рутульский язык</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="https://linghub.ru/rutuldict/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>Тукитинский язык</h2>
-        </header>    
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/TukitaDict/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-</div>
-
-
-<div class="main-image" style="background-image: url('images/2.JPG'); background-position: 0% 65%;">
-  <div class="attrib"> с. Кина, Рутульский район, Дагестна <br> Тимур Майсак </div>
-</div>
-
-</div>
-<div id="m3" class="section level1">
-<h1>Другие проекты</h1>
-<hr />
-<!-- The Linguistic Convergence Laboratory conducts research on Daghestan from linguistic and sociolinguistic perspectives. Daghestan is one of the few multilingual regions of the world where local languages continue to be used in rural localities for everyday activities. Research is conducted on traditional multilingualism among speakers of highland villages, basic lexicon of Nakh-Daghestanian languages, and on language contact at the level of lexical borrowing and at the grammatical level as well. To better understand the dynamics of linguistic diversity in Daghestan the Laboratory digitized population census data from Daghestan from the late 19th to early 20th centuries. -->
-
-<div class="cards">
-    <article class="card">
-        <header>
-            <h2>DagSwadesh</h2>
-        </header>
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/dagswadesh/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>DagLoans</h2>
-        </header>
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/dagloans/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card gry">
-        <header>
-            <h2>MultiDag</h2>
-        </header>
-        <div class="content">
-          <p>
-            <form action="https://multidagestan.com/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-    <article class="card">
-        <header>
-            <h2>TALD</h2>
-        </header>
-        <div class="content">
-          <p>
-            <form action="http://lingconlab.ru/dagatlas/" target="_blank">
-              <button class="button" type="submit">View</button>
-            </form>
-          </p>
-        </div>
-    </article>
-</div>
-
-<!-- ## DagSwadesh -->
-<!-- DagSwadesh is a database of Swadesh-100 wordlists from the languages of Daghestan. The main aim of the project is to substantiate lexicostatistical classification of the Nakh-Daghestanian idioms by controlling the provenance of the wordlist at the village level, including using data from reliable sources and collecting new data ourselves. -->
-<!-- ## Daghestanian loans database -->
-<!-- The database contains results of elicitation of a list of 164 lexical meanings across languages of Daghestan. -->
-<!-- ## Atlas of multilingualism in Daghestan -->
-<!-- The focus of this project is on multilingual areas. The aim is to get information about the multilingualism of local people, that is, the languages they can speak in addition to their native language. -->
-<!-- ## Typological Atlas of the languages of Daghestan -->
-<!-- The goal of this project is to develop a tool for the visualization of information about linguistic structures characteristic of Daghestan. The atlas is based almost exclusively on data from published grammars. -->
-
-<div class="main-image" style="background-image: url('images/mount2.JPG'); background-position: 0% 65%;">
-  <div class="attrib"> с. Фий, Ахтынский район, Дагестан <br> Михаил Даниэль </div>
+<div class="main-image" style="background-image: url('images/push1.jpg'); background-position: 0% 65%;">
+  <div class="attrib"> д. Пушкино-Михалёвская, Вельский район, Архангельская область <br> Михаил Даниэль </div>
 </div>
 
 </div>
@@ -854,7 +467,8 @@ $(document).ready(function () {
     <div class="footer-basic">
         <footer>
             <div class="social"><a href="https://twitter.com/lingconlab" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://github.com/LingConLab" target="_blank"><i class="icon ion-social-github"></i></a></div>
-            <p class="copyright">2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+            <div class="hse_logo"><a href="https://ilcl.hse.ru"><img src="images/hse_logo_ru.png" width="80"></a></div>
+            <p class="copyright">2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script>,  Международная лаборатория языковой конвергенции, НИУ ВШЭ</p>
         </footer>
     </div>
     <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->

@@ -1,9 +1,12 @@
 body {
   font-size: 18px;
-  font-family: Open Sans, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
    }
 .navbar{
   font-size: 18px;
+}
+.dropdown-menu {/*чтобы влезали длинные названия*/
+  min-width: 200px;
 }
 #htmlwidget-244aaddf2639520a3f5a, #htmlwidget-6f66dca5431bfb50b4e6{ /*карты на about. временное решение*/
   width: 100% !important;
@@ -39,6 +42,9 @@ body {
 }
 .nav-tabs a:hover{
   color:#333333 !important;
+}
+.hse_logo{
+  text-align: center;
 }
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   background-color: #333333;
