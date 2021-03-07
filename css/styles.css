@@ -4,6 +4,13 @@ body {
    }
 .navbar{
   font-size: 18px;
+  height: 80px;
+}
+#header {
+    margin-top: 80px;
+}
+.res{
+  color:#5f9ea0;
 }
 .dropdown-menu {/*чтобы влезали длинные названия*/
   min-width: 225px;
@@ -24,6 +31,12 @@ body {
 }
 .navbar a:hover{
   color:#ffffff !important;
+}
+.navbar a.res{
+  color:#5F9E9F !important;
+}
+.navbar a.res:hover{
+  color:#5F9E9F !important;
 }
 .navbar-brand ~ a:hover{
   color:#F6BBBB !important;
